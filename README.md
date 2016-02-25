@@ -1,4 +1,4 @@
-[![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)](http://www.tvidoo-commerce.com?github_repo=tvidoo-grid)
+[![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)](http://www.tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=logo_click&utm_campaign=github_tvidoo-grid&utm_content=logo)
 
 tvidoo grid
 ===
@@ -63,7 +63,7 @@ License
 ===
 The MIT License (MIT)
 
-Copyright (c) 2013 - 2016 Thorsten Koerner <http://tvidoo-commerce.com>
+Copyright (c) 2013 - 2016 Thorsten Koerner [http://tvidoo-commerce.com/en/author/thorsten/](http://tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=author_link_click&utm_campaign=github_tvidoo-grid&utm_content=author_link)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
