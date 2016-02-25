@@ -1,4 +1,4 @@
-![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)
+[![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)](http://www.tvidoo-commerce.com?github_repo=tvidoo-grid)
 
 tvidoo grid
 ===
