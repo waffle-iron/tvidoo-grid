@@ -49,6 +49,16 @@ Use the compressed contents of the distribution directory in your project.
          
 That's it. Now you can use the grid for your design on your website.
 
+Use tvidoo grid for your WordPress theme
+===
+It is easy to use the tvidoo grid layout system to develop your WordPress theme.
+
+In this case, you have to use a file style.css in the theme's root directory and @import all css files, you want.
+
+Since this is the way, you would normally go, we have a better one. You can simply use the style.scss file in the sources/sass directory and adapt everything to your needs.
+
+Don't forget to edit the comment section at the top according to the WordPress codex. (https://codex.wordpress.org/Theme_Development#Theme_Stylesheet)
+
 License
 ===
 The MIT License (MIT)
