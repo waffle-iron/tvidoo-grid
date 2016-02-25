@@ -2,27 +2,39 @@
 
 tvidoo grid
 ===
-tvidoo grid is a pure css based fluid grid layout system for all purposes regarding responsive (adaptive) webdesign. It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops at tvidoo commerce (http://www.tvidoo-commerce.com), where you can download a distribution of this files.
-After doing several different shops, I decided to strip down the code to have it more generic, so tvidoo grid is strictly designed to have a small footprint.
-
-tvidoo grid is pure CSS / CSS3 and don't rely on any JavaScript libraries. So you are absolutely free to combine it with whatever frameworks you want, be it AngularJS, be it JQuery and so many more.
+tvidoo grid is a pure css based fluid grid layout system for all purposes regarding responsive (adaptive) web design. tvidoo grid is pure CSS / CSS3 and don't rely on any JavaScript libraries. So you are absolutely free to combine it with whatever frameworks you want, be it AngularJS, be it jQuery and so many more.
 
 tvidoo grid also don't hurt existing template sets, when you are required to migrate softly to a responsive design.
 
 History
 ===
+It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops, as well as WordPress blogs at tvidoo commerce (http://www.tvidoo-commerce.com).
+
+After doing several different shops, I decided to strip down the code to have it more generic, so tvidoo grid is strictly designed to have a small footprint.
+
 
 Installing tvidoo grid
 ===
-### Distribution | Installing tvidoo grid the easy way
-
-### Compile from sources
+### Compile from sources (recomended)
+Since compiling the sources gives you the opportunity to make your own settings and design, I recommend this way.
+ 
 Prerequisites:
 - ruby (https://www.ruby-lang.org/)
 - compass (http://compass-style.org/)
 - grunt (http://gruntjs.com)
 
+1. Clone this project (```$> git clone git@github.com:tvidoo-commerce/tvidoo-grid.git```)
+2. CD to the project directory (```$> cd /path/tvidoo-grid/sources/```)
+3. Start the compass watcher (```$> compass watch```)
+4. Now, whenever you make changes to one of the source files, the contents of the distribution directory will be rebuilt automatically.
+5. Use the contents of the distribution directory in your project.
+
+### Distribution | Installing tvidoo grid using a ZIP archive
+If you want to install tvidoo grid just as it is, just download the latest ZIP archive release and unpack the contents of the distribution directory to your web project or website.
+
+
 [![npm](https://img.shields.io/npm/l/express.svg)]() [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+===
 
 Usage
 ===
