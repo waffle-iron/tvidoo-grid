@@ -1,0 +1,40 @@
+/*! tvidoo-grid-theme-basic.css v1.0_beta6 | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
+/*
+ * Name:           tvidoo-grid
+ * Description:    lightweight fluid CSS3 grid system
+ * Author:         Thorsten Körner, tvidoo-commerce
+ * Author URI:     http://www.tvidoo-commerce.com
+ * Version:        1.0
+ * License:        MIT-License (http://opensource.org/licenses/MIT)
+ *
+ * see license file in this distribution
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+html {
+    font-size: 14px;
+}
+
+input,
+button,
+textarea {
+    outline:none;
+}
+
+@import 'themes/basic/mixins';
+@import 'themes/basic/grid';
+@import 'themes/basic/variables/colors';
+@import 'themes/basic/transitions';
+@import 'themes/basic/body';
+@import 'themes/basic/buttons';
+@import 'themes/basic/styles';
+@import 'themes/basic/forms';
+@import 'themes/basic/infoboxes';
+@import 'themes/basic/textstyles';

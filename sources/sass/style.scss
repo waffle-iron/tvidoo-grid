@@ -1,0 +1,42 @@
+/*!
+Theme Name:     tvidoo Grid Basic
+Description:    lightweight fluid CSS3 grid system theme for WordPress. 12 Column Edition
+Author:         Thorsten Körner, tvidoo commerce UG
+Author URI:     http://www.tvidoo-commerce.com
+Version:        1.0
+style.css v1.0_beta6 | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid
+*/
+
+* ,
+*:before,
+*:after  {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@import 'mixins';
+@import 'partials/fullwidth';
+
+
+html {
+  font-size: 14px;
+}
+
+input,
+button,
+textarea {
+  outline:none;
+}
+
+@import 'themes/basic/mixins';
+@import 'themes/basic/grid';
+@import 'themes/basic/variables/colors';
+@import 'themes/basic/transitions';
+@import 'themes/basic/body';
+@import 'themes/basic/buttons';
+@import 'themes/basic/styles';
+@import 'themes/basic/forms';
+@import 'themes/basic/infoboxes';
+@import 'themes/basic/textstyles';

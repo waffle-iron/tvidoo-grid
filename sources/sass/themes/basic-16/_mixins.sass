@@ -1,0 +1,116 @@
+/*! tvidoo-grid-theme-basic-16.css v1.0_beta6 Module mixins | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
+/*
+ * Name:           tvidoo-grid
+ * Description:    lightweight fluid CSS3 grid system
+ * Author:         Thorsten Körner, tvidoo-commerce 
+ * Author URI:     http://www.tvidoo-commerce.com
+ * Version:        1.0
+ * License:        MIT-License (http://opensource.org/licenses/MIT) 
+ * 
+ * see license file in this distribution
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+/*
+ * Setting the class name prefix to prevent from destroying other systems like bootstrap
+ */
+$classNamePrefix: tvg--
+
+/*
+ * setting basic color values
+ */
+$grey: #555555
+$lightgrey: #eeeeee
+$darkgrey: #222222
+$white: #ffffff
+$black: #000000
+
+/*
+ * setting a color palet
+ */
+$default: $grey
+$primary: #257fcc
+$success: #5ca513
+$info: #4a71be
+$warning: #ff9d00
+$danger: #ff0000
+
+/*
+ * setting some basics colors for text etc.
+ */
+$light_text_color: $white
+$text_color: $grey
+$link_color: $primary
+$shadow: #999999
+
+/*
+ * setting box shadows
+ */
+@mixin box-shadow($shadows...) 
+  -moz-box-shadow: $shadows
+  -webkit-box-shadow: $shadows
+  box-shadow: $shadows
+
+.#{$classNamePrefix}shadows
+  @include box-shadow(0px 0px 15px #ddd)
+
+/*
+ * setting border radius
+ */
+@mixin border-radius ($radius...) 
+  -moz-border-radius: $radius
+  -webkit-border-radius: $radius
+  border-radius: $radius
+
+.#{$classNamePrefix}border-radius
+  @include border-radius(5px)
+
+/*
+ * setting basic layout values
+ */
+.#{$classNamePrefix}spacer,
+.#{$classNamePrefix}clear
+  clear: both
+
+.#{$classNamePrefix}card
+  padding: 10px
+  margin-left: 1.5%
+  margin-right: 1.5%
+
+.#{$classNamePrefix}center
+  text-align: center
+
+img.#{$classNamePrefix}center,
+.#{$classNamePrefix}m-auto
+  margin: auto
+
+
+/*
+ * Setting responsive breakpoints
+ */
+$minBreakPointXXS: 1px
+$maxBreakPointXXS: 479px
+
+$minBreakPointXS: 480px
+$maxBreakPointXS: 767px
+
+$minBreakPointS: 768px
+$maxBreakPointS: 991px
+
+$minBreakPointM: 992px
+$maxBreakPointM: 1023px
+
+$minBreakPointL: 1024px
+$maxBreakPointL: 1199px
+
+$minBreakPointXL: 1200px
+$maxBreakPointXL: 1399px
+
+$minBreakPointXXL: 1400px
