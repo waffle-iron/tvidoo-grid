@@ -1,4 +1,4 @@
-[![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)](http://www.tvidoo-commerce.com?github_repo=tvidoo-grid)
+[![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)](http://www.tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=logo_click&utm_campaign=github_tvidoo-grid&utm_content=logo)
 
 tvidoo grid
 ===
@@ -49,11 +49,21 @@ Use the compressed contents of the distribution directory in your project.
          
 That's it. Now you can use the grid for your design on your website.
 
+Use tvidoo grid for your WordPress theme
+===
+It is easy to use the tvidoo grid layout system to develop your WordPress theme.
+
+In this case, you have to use a file style.css in the theme's root directory and @import all css files, you want.
+
+Since this is the way, you would normally go, we have a better one. You can simply use the style.scss file in the sources/sass directory and adapt everything to your needs.
+
+Don't forget to edit the comment section at the top according to the WordPress codex. (https://codex.wordpress.org/Theme_Development#Theme_Stylesheet)
+
 License
 ===
 The MIT License (MIT)
 
-Copyright (c) 2013 - 2016 Thorsten Koerner <http://tvidoo-commerce.com>
+Copyright (c) 2013 - 2016 Thorsten Koerner [http://tvidoo-commerce.com/en/author/thorsten/](http://tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=author_link_click&utm_campaign=github_tvidoo-grid&utm_content=author_link)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
