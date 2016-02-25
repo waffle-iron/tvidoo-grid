@@ -2,13 +2,30 @@
 
 tvidoo grid
 ===
-tvidoo grid is a lightweight, pure css based fluid grid layout system for all purposes regarding responsive (adaptive) web design. It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops at tvidoo commerce (http://www.tvidoo-commerce.com), where you can download a distribution of this files.
+tvidoo grid is a pure css based fluid grid layout system for all purposes regarding responsive (adaptive) webdesign. It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops at tvidoo commerce (http://www.tvidoo-commerce.com), where you can download a distribution of this files.
 After doing several different shops, I decided to strip down the code to have it more generic, so tvidoo grid is strictly designed to have a small footprint.
 
 tvidoo grid is pure CSS / CSS3 and don't rely on any JavaScript libraries. So you are absolutely free to combine it with whatever frameworks you want, be it AngularJS, be it JQuery and so many more.
 
 tvidoo grid also don't hurt existing template sets, when you are required to migrate softly to a responsive design.
 
+History
+===
+
+Installing tvidoo grid
+===
+### Distribution | Installing tvidoo grid the easy way
+
+### Compile from sources
+Prerequisites:
+- ruby (https://www.ruby-lang.org/)
+- compass (http://compass-style.org/)
+- grunt (http://gruntjs.com)
+
+[![npm](https://img.shields.io/npm/l/express.svg)]() [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+Usage
+===
 
 License
 ===
