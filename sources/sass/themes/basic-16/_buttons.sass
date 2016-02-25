@@ -1,0 +1,132 @@
+/*! tvidoo-grid-theme-basic-16.css v1.0_beta6 Module buttons | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
+/*
+ * Name:           tvidoo-grid
+ * Description:    lightweight fluid CSS3 grid system
+ * Author:         Thorsten Körner, tvidoo-commerce 
+ * Author URI:     http://www.tvidoo-commerce.com
+ * Version:        1.0
+ * License:        MIT-License (http://opensource.org/licenses/MIT) 
+ * 
+ * see license file in this distribution
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+.#{$classNamePrefix}button-XXS
+    padding: 2px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 0.6rem
+
+.#{$classNamePrefix}button-XS
+    padding: 4px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 0.7rem
+
+
+.#{$classNamePrefix}button-S
+    padding: 6px 8px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 1rem
+
+.#{$classNamePrefix}button-M
+    padding: 10px 20px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 1rem
+
+.#{$classNamePrefix}button-L
+    padding: 10px 20px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 1.4rem
+
+.#{$classNamePrefix}button-XL
+    padding: 20px 50px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 1.8rem
+
+.#{$classNamePrefix}button-XXL
+    padding: 30px 70px
+    margin: 0 10px 0 0
+    border: 1px solid
+    font-size: 2rem
+
+
+.#{$classNamePrefix}button-FULL
+    width: 100%
+
+.#{$classNamePrefix}button-default
+    border-color: lighten($default, 35%)
+    background-color:  lighten($default, 65%)
+    color: $text_color
+
+.#{$classNamePrefix}button-primary
+    border-color: darken($primary, 10.0%)
+    background-color: $primary
+    color: $light_text_color
+
+.#{$classNamePrefix}button-success
+    border-color: darken($success, 10.0%)
+    background-color: $success
+    color: $light_text_color
+
+.#{$classNamePrefix}button-info
+    border-color: darken($info, 10.0%)
+    background-color: $info
+    color: $light_text_color
+
+.#{$classNamePrefix}button-warning
+    border-color: darken($warning, 10.0%)
+    background-color: $warning
+    color: $light_text_color
+
+.#{$classNamePrefix}button-danger
+    border-color: darken($danger, 10.0%)
+    background-color: $danger
+    color: $light_text_color
+
+.#{$classNamePrefix}button-outline-default
+    border-color: lighten($default, 35%)
+    background-color:  lighten($default, 65%)
+    color: $text_color
+
+.#{$classNamePrefix}button-outline-primary
+    border-color: $primary
+    background-color: $white
+    color: $primary
+
+.#{$classNamePrefix}button-outline-success
+    border-color: $success
+    background-color: $white
+    color: $success
+
+.#{$classNamePrefix}button-outline-info
+    border-color: $info
+    background-color: $white
+    color: $info
+
+.#{$classNamePrefix}button-outline-warning
+    border-color: $warning
+    background-color: $white
+    color: $warning
+
+.#{$classNamePrefix}button-outline-danger
+    border-color: $danger
+    background-color: $white
+    color: $danger
+
+.#{$classNamePrefix}button-raised
+    @include box-shadow(0px 0px 10px lighten($shadow, 10%))
+
+.#{$classNamePrefix}button-raised:hover
+    @include box-shadow(0px 0px 3px darken($shadow, 30%))
