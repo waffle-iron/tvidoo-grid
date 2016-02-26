@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 sources/.sass-cache/
+.sass-cache/
 node_modules/
 
 **/**/*.map
