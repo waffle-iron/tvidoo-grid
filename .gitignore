@@ -4,4 +4,7 @@ sources/.sass-cache/
 .sass-cache/
 node_modules/
 
+sources/sass/custom/*
 **/**/*.map
+
+!sources/sass/custom/README.md
