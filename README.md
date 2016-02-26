@@ -6,6 +6,10 @@ tvidoo grid is a pure css based fluid grid layout system for all purposes regard
 
 tvidoo grid also don't hurt existing template sets, when you are required to migrate softly to a responsive design.
 
+Contributing
+===
+Please read the [CONTRIBUTING](https://github.com/tvidoo-commerce/tvidoo-grid/blob/master/CONTRIBUTING.md) doc when you are interested in contributing to the tvidoo grid project.
+
 History
 ===
 It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops, as well as WordPress blogs at tvidoo commerce (http://www.tvidoo-commerce.com).
