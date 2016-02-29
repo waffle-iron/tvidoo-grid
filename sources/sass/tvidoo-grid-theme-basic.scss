@@ -38,3 +38,17 @@ textarea {
 @import 'themes/basic/infoboxes';
 @import 'themes/basic/textstyles';
 @import "partials/components";
+
+@-moz-keyframes #{$classNamePrefix}progress-default {0% {width:0px;} 100%{width:80%;}}
+@-moz-keyframes #{$classNamePrefix}progress-primary {0% {width:0px;} 100%{width:90%;}}
+@-moz-keyframes #{$classNamePrefix}progress-success {0% {width:0px;} 100%{width:65%;}}
+@-moz-keyframes #{$classNamePrefix}progress-info {0% {width:0px;} 100%{width:80%;}}
+@-moz-keyframes #{$classNamePrefix}progress-warning {0% {width:0px;} 100%{width:65%;}}
+@-moz-keyframes #{$classNamePrefix}progress-danger {0% {width:0px;} 100%{width:80%;}}
+
+@-webkit-keyframes #{$classNamePrefix}progress-default {0% {width:0px;} 100%{width:80%;}}
+@-webkit-keyframes #{$classNamePrefix}progress-primary {0% {width:0px;} 100%{width:90%;}}
+@-webkit-keyframes #{$classNamePrefix}progress-success {0% {width:0px;} 100%{width:65%;}}
+@-webkit-keyframes #{$classNamePrefix}progress-info {0% {width:0px;} 100%{width:80%;}}
+@-webkit-keyframes #{$classNamePrefix}progress-warning {0% {width:0px;} 100%{width:65%;}}
+@-webkit-keyframes #{$classNamePrefix}progress-danger {0% {width:0px;} 100%{width:80%;}}
