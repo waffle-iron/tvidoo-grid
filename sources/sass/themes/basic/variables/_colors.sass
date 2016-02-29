@@ -81,3 +81,27 @@
 
 .#{$classNamePrefix}danger
     color: $danger
+
+.#{$classNamePrefix}default-gradient
+    background: linear-gradient(lighten($default, 70%), lighten($default, 60%))
+    color: $text_color
+
+.#{$classNamePrefix}primary-gradient
+    background: linear-gradient(lighten($primary, 10%), darken($primary, 5%))
+    color: $light_text_color
+
+.#{$classNamePrefix}success-gradient
+    background: linear-gradient(lighten($success, 10%), darken($success, 5%))
+    color: $light_text_color
+
+.#{$classNamePrefix}info-gradient
+    background: linear-gradient(lighten($info, 20%), darken($info, 5%))
+    color: $light_text_color
+
+.#{$classNamePrefix}warning-gradient
+    background: linear-gradient(lighten($warning, 20%), darken($warning, 5%))
+    color: $light_text_color
+
+.#{$classNamePrefix}danger-gradient
+    background: linear-gradient(lighten($danger, 10%), darken($danger, 10%))
+    color: $light_text_color

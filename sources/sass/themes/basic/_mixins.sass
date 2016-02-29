@@ -51,6 +51,13 @@ $link_color: $primary
 $shadow: #999999
 
 /*
+ * floating behaviour
+ */
+$rightfloat: right
+$leftfloat: left
+$float: $leftfloat
+
+/*
  * setting box shadows
  */
 @mixin box-shadow($shadows...) 
@@ -90,27 +97,3 @@ $shadow: #999999
 img.#{$classNamePrefix}center,
 .#{$classNamePrefix}m-auto
   margin: auto
-
-
-/*
- * Setting responsive breakpoints
- */
-$minBreakPointXXS: 1px
-$maxBreakPointXXS: 479px
-
-$minBreakPointXS: 480px
-$maxBreakPointXS: 767px
-
-$minBreakPointS: 768px
-$maxBreakPointS: 991px
-
-$minBreakPointM: 992px
-$maxBreakPointM: 1023px
-
-$minBreakPointL: 1024px
-$maxBreakPointL: 1199px
-
-$minBreakPointXL: 1200px
-$maxBreakPointXL: 1399px
-
-$minBreakPointXXL: 1400px
