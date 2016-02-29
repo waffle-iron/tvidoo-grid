@@ -29,7 +29,6 @@ textarea {
 }
 
 @import 'themes/basic/mixins';
-@import 'themes/basic/grid';
 @import 'themes/basic/variables/colors';
 @import 'themes/basic/transitions';
 @import 'themes/basic/body';
@@ -38,3 +37,4 @@ textarea {
 @import 'themes/basic/forms';
 @import 'themes/basic/infoboxes';
 @import 'themes/basic/textstyles';
+@import "partials/components";
