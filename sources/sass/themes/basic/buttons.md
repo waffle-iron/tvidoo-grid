@@ -2,11 +2,11 @@
 
 ## Buttons:
 
-Buttons are available in all defined colors from color swatch. 
+> Buttons are available in all defined colors from color swatch. 
 
-They can be added to all HTML container Elements and links and can contain other elements like labels etc.
+> They can be added to all HTML container Elements and links and can contain other elements like labels etc.
 
-You can also add attributes like id and data-attributes for your JavaScript programming.
+> You can also add attributes like id and data-attributes for your JavaScript programming.
 
 ### Examples
 
@@ -33,7 +33,7 @@ You can also add attributes like id and data-attributes for your JavaScript prog
 
 ## Buttons with nested Elements
 
-You can also add nested elements like labels or badges to button code
+> You can also add nested elements like labels or badges to button code
 
 ### Examples
 
