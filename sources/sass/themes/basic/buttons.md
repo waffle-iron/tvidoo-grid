@@ -1,5 +1,7 @@
 ---
 
+<a name="buttons"></a>
+
 ## Buttons:
 
 > Buttons are available in all defined colors from color swatch. 
