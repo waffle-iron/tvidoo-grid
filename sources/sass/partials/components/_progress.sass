@@ -2,6 +2,7 @@
 
 .#{$classNamePrefix}progress
   background: #e9e5e2
+  margin: 0 10px
   margin-bottom: 20px
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2))
   background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2)
@@ -10,19 +11,22 @@
   background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2)
   background-image: linear-gradient(top, #e1ddd9, #e9e5e2)
   height: 20px
-  border-radius: 10px
+  border-radius: $br_float
   -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc
   -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc
   box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc
 
+.#{$classNamePrefix}progress > div
+  border-radius: $br_float
+  float: $float
+  padding: 2px 15px
+  color: $light_text_color
+
 .#{$classNamePrefix}progress-default
   -moz-animation: #{$classNamePrefix}progress-default 2s ease-out
   -webkit-animation: #{$classNamePrefix}progress-default 2s ease-out
-  margin-bottom: 20px
   background: $default
-  border-radius: 10px
-  padding: 2px 15px
-  color: $text_color
+  color: $text_color !important
   background-image: -webkit-linear-gradient(top, lighten($default, 70%), lighten($default, 60%))
   background-image: -moz-linear-gradient(top, lighten($default, 70%), lighten($default, 60%))
   background-image: -ms-linear-gradient(top, lighten($default, 70%), lighten($default, 60%))
@@ -32,11 +36,7 @@
 .#{$classNamePrefix}progress-primary
   -moz-animation: #{$classNamePrefix}progress-primary 2s ease-out
   -webkit-animation: #{$classNamePrefix}progress-primary 2s ease-out
-  margin-bottom: 20px
   background: $primary
-  border-radius: 10px
-  padding: 2px 15px
-  color: $light_text_color
   background-image: -webkit-linear-gradient(top, lighten($primary, 10%), darken($primary, 5%))
   background-image: -moz-linear-gradient(top, lighten($primary, 10%), darken($primary, 5%))
   background-image: -ms-linear-gradient(top, lighten($primary, 10%), darken($primary, 5%))
@@ -46,11 +46,7 @@
 .#{$classNamePrefix}progress-info
   -moz-animation: #{$classNamePrefix}progress-info 2s ease-out
   -webkit-animation: #{$classNamePrefix}progress-info 2s ease-out
-  margin-bottom: 20px
   background: $info
-  border-radius: 10px
-  padding: 2px 15px
-  color: $light_text_color
   background-image: -webkit-linear-gradient(top, lighten($info, 20%), darken($info, 5%))
   background-image: -moz-linear-gradient(top, lighten($info, 20%), darken($info, 5%))
   background-image: -ms-linear-gradient(top, lighten($info, 20%), darken($info, 5%))
@@ -60,11 +56,7 @@
 .#{$classNamePrefix}progress-success
   -moz-animation: #{$classNamePrefix}progress-success 2s ease-out
   -webkit-animation: #{$classNamePrefix}progress-success 2s ease-out
-  margin-bottom: 20px
   background: $success
-  border-radius: 10px
-  padding: 2px 15px
-  color: $light_text_color
   background-image: -webkit-linear-gradient(top, lighten($success, 10%), darken($success, 5%))
   background-image: -moz-linear-gradient(top, lighten($success, 10%), darken($success, 5%))
   background-image: -ms-linear-gradient(top, lighten($success, 10%), darken($success, 5%))
@@ -74,11 +66,7 @@
 .#{$classNamePrefix}progress-warning
   -moz-animation: #{$classNamePrefix}progress-warning 2s ease-out
   -webkit-animation: #{$classNamePrefix}progress-warning 2s ease-out
-  margin-bottom: 20px
   background: $warning
-  border-radius: 10px
-  padding: 2px 15px
-  color: $light_text_color
   background-image: -webkit-linear-gradient(top, lighten($warning, 20%), darken($warning, 5%))
   background-image: -moz-linear-gradient(top, lighten($warning, 20%), darken($warning, 5%))
   background-image: -ms-linear-gradient(top, lighten($warning, 20%), darken($warning, 5%))
@@ -88,14 +76,9 @@
 .#{$classNamePrefix}progress-danger
   -moz-animation: #{$classNamePrefix}progress-danger 2s ease-out
   -webkit-animation: #{$classNamePrefix}progress-danger 2s ease-out
-  margin-bottom: 20px
   background: $danger
-  border-radius: 10px
-  padding: 2px 15px
-  color: $light_text_color
   background-image: -webkit-linear-gradient(top, lighten($danger, 10%), darken($danger, 10%))
   background-image: -moz-linear-gradient(top, lighten($danger, 10%), darken($danger, 10%))
   background-image: -ms-linear-gradient(top, lighten($danger, 10%), darken($danger, 10%))
   background-image: -o-linear-gradient(top, lighten($danger, 10%), darken($danger, 10%))
   background-image: linear-gradient(top, lighten($danger, 10%), darken($danger, 10%))
-

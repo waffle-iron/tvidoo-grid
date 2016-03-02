@@ -18,9 +18,18 @@ module.exports = function(grunt) {
                 files: ['**/*.scss','**/*.sass'],
                 tasks: ['compass']
             }
+        },
+        livingstyleguide: {
+            generate: {
+                options: {
+                    src: 'sass/styleguide.lsg',
+                    dest: 'doc/styleguide.html'
+                }
+            }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-livingstyleguide');
     grunt.registerTask('default',['watch']);
 }
