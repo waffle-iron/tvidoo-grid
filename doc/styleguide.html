@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../distribution/css/tvidoo-grid.css">
+    <link rel="stylesheet" type="text/css" href="../distribution/css/tvidoo-grid-theme-basic.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>Title</title>
+</head>
+<body style="padding: 50px;">
+<a href="http://www.tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=styleguide_click&utm_campaign=github_tvidoo-grid&utm_content=styleguide-logo">
+    <img src="http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid">
+</a>
+<h1>tvidoo grid Styleguide</h1>
+<hr>
+<p><a name="customdir"></a></p>
+<h2 id="custom-directory">Custom Directory</h2>
+<blockquote>
+<p>This is a special directory for your custom SASS files. </p>
+<p>Place your own custom files in this directory to protect them from being deleted during updates.</p>
+<p>To add them to the generated CSS files, just add a line</p>
+<blockquote>
+<p><code>@import &#39;custom/productlist&#39;;</code> </p>
+</blockquote>
+<p>to your SCSS masterfile</p>
+</blockquote>
+<h3 id="example">Example</h3>
+<pre><code>you have a <span class="hljs-type">file</span> _productlist.sass <span class="hljs-keyword">in</span> this directory.
+To add this <span class="hljs-type">file</span> <span class="hljs-keyword">in</span> your scss <span class="hljs-type">file</span> i.e. tvidoo-grid.scss simply <span class="hljs-keyword">put</span> <span class="hljs-keyword">the</span> following line
+<span class="hljs-keyword">in</span> <span class="hljs-keyword">the</span> scss <span class="hljs-type">file</span>:
+@import 'custom/productlist';
+Where <span class="hljs-keyword">the</span> best place <span class="hljs-keyword">for</span> this line <span class="hljs-keyword">is</span>, depends <span class="hljs-function_start"><span class="hljs-keyword">on</span></span> your needs. 
+</code></pre><hr>
+<hr>
+<p><a name="progress"></a></p>
+<h2 id="progress-bars">Progress Bars</h2>
+<blockquote>
+<p>Progress Bars can be used to show the progress of any process or as a chart.</p>
+<p>They are animated using CSS</p>
+<p>Coloring is done with the CSS classes by using the color swatch colors</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<div style="clear: both">&nbsp;</div>
+
+<div class="tvg--col-XXS-12  tvg--col-S-5">
+
+<div class="tvg--progress">
+    <div class="tvg--progress-default" style="width: 80%;">Default</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-primary" style="width: 90%;">Primary</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-success" style="width: 65%;">Success</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-info" style="width: 80%;">Info</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-warning" style="width: 65%;">Warning</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-danger" style="width: 80%;">Danger</div>
+</div>
+
+<p></div></p>
+<div style="clear: both">&nbsp;</div>
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-default" style="width: 80%;">Default&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-primary" style="width: 90%;">Primary&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-success" style="width: 65%;">Success&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-info" style="width: 80%;">Info&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-warning" style="width: 65%;">Warning&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-danger" style="width: 80%;">Danger&lt;/div>
+&lt;/div>
+</code></pre>
+
+<hr>
+<h4 id="example-with-lists">Example with Lists</h4>
+<div style="clear: both">&nbsp;</div>
+
+<div class="tvg--col-XXS-12 tvg--col-S-5">
+
+<ul class="tvg--liststyle-none">
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-default" style="width: 80%;"><span>Default</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-primary" style="width: 90%;"><span>Primary</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-success" style="width: 65%;"><span>Success</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-info" style="width: 80%;"><span>Info</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-warning" style="width: 65%;"><span>Warning</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-danger" style="width: 80%;"><span>Danger</span></div></li>
+</ul>
+</div><div class="tvg--col-XXS-12 tvg--col-S-7">&nbsp;</div>
+
+<div style="clear: both">&nbsp;</div>
+
+<h3 id="code-progress-bar-with-lists">Code Progress Bar with Lists</h3>
+<pre><code class="html">&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-default" style="width: 80%;">&lt;span>Default&lt;/span>&lt;/div>&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-primary" style="width: 90%;">&lt;span>Primary&lt;/span>&lt;/div>&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-success" style="width: 65%;">&lt;span>Success&lt;/span>&lt;/div>&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-info" style="width: 80%;">&lt;span>Info&lt;/span>&lt;/div>&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-warning" style="width: 65%;">&lt;span>Warning&lt;/span>&lt;/div>&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-danger" style="width: 80%;">&lt;span>Danger&lt;/span>&lt;/div>&lt;/li>
+</code></pre>
+
+<hr>
+<hr>
+<p><a name="buttons"></a></p>
+<h2 id="buttons-">Buttons:</h2>
+<blockquote>
+<p>Buttons are available in all defined colors from color swatch. </p>
+<p>They can be added to all HTML container Elements and links and can contain other elements like labels etc.</p>
+<p>You can also add attributes like id and data-attributes for your JavaScript programming.</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<button class="tvg--button-primary tvg--button-M tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button</button>
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button&lt;/button></code></pre>
+
+<hr>
+<h2 id="buttons-with-nested-elements">Buttons with nested Elements</h2>
+<blockquote>
+<p>You can also add nested elements like labels or badges to button code</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<button class="tvg--button-primary tvg--button-M tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button></code></pre>
+
+<hr>
+
+
+<div style="text-align: center; border-top: 3px solid #ddd; padding: 30px; color: #ddd; background: #000;">This styleguide is generated by grunt-md2html<br>
+tvidoo grid Copyright &copy; 2013-2016 by <a style="color: #ddd;" href="http://www.tvidoo-commerce.com">tvidoo commerce UG</a> and <a style="color: #ddd;" href="http://www.tvidoo-commerce.com/en/author/thorsten/">tvidoo commerce UG</a><br>Project: <a style="color: #ddd;" href="https://github.com/tvidoo-commerce/tvidoo-grid">https://github.com/tvidoo-commerce/tvidoo-grid</a>
+</div>
+</body>
+</html>
