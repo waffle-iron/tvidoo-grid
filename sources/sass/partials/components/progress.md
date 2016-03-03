@@ -84,12 +84,26 @@
 
 ### Code Progress Bar with Lists
 
-<pre><code class="html">&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-default" style="width: 80%;">&lt;span>Default&lt;/span>&lt;/div>&lt;/li>
-&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-primary" style="width: 90%;">&lt;span>Primary&lt;/span>&lt;/div>&lt;/li>
-&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-success" style="width: 65%;">&lt;span>Success&lt;/span>&lt;/div>&lt;/li>
-&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-info" style="width: 80%;">&lt;span>Info&lt;/span>&lt;/div>&lt;/li>
-&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-warning" style="width: 65%;">&lt;span>Warning&lt;/span>&lt;/div>&lt;/li>
-&lt;li class="tvg--progress tvg--progress-margleft">&lt;div class="tvg--progress-danger" style="width: 80%;">&lt;span>Danger&lt;/span>&lt;/div>&lt;/li>
+<pre><code class="html">&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-default" style="width: 80%;">&lt;span>Default&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-primary" style="width: 90%;">&lt;span>Primary&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-success" style="width: 65%;">&lt;span>Success&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-info" style="width: 80%;">&lt;span>Info&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-warning" style="width: 65%;">&lt;span>Warning&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-danger" style="width: 80%;">&lt;span>Danger&lt;/span>&lt;/div>
+&lt;/li>
 </code></pre>
+
+<div class="tvg--infobox tvg--infobox-info">TIPP: the progress bar elements are reacting to the ltr/rtl switch in _directions.sass. So you can easily switch the direction in your internationalization project.</div>
 
 ---
