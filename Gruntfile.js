@@ -36,6 +36,7 @@ module.exports = function(grunt) {
                     src: [
                         'sources/sass/partials/*.md',
                         'sources/sass/partials/components/*.md',
+                        'sources/sass/themes/basic/*.md',
                         'sources/sass/custom/*.md'
                     ],
                     dest: 'doc/styleguide.html'

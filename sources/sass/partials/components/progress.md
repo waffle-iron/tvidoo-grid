@@ -105,5 +105,3 @@
 </code></pre>
 
 <div class="tvg--infobox tvg--infobox-info">TIPP: the progress bar elements are reacting to the ltr/rtl switch in _directions.sass. So you can easily switch the direction in your internationalization project.</div>
-
----

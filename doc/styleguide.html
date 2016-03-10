@@ -121,8 +121,97 @@
 
 <div class="tvg--infobox tvg--infobox-info">TIPP: the progress bar elements are reacting to the ltr/rtl switch in _directions.sass. So you can easily switch the direction in your internationalization project.</div>
 
-<hr>
 
+<hr>
+<p><a name="buttons"></a></p>
+<h2 id="buttons-">Buttons:</h2>
+<blockquote>
+<p>Buttons are available in all defined colors from color swatch. </p>
+<p>They can be added to all HTML container Elements and links and can contain other elements like labels etc.</p>
+<p>You can also add attributes like id and data-attributes for your JavaScript programming.</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<button class="tvg--button-primary tvg--button-M tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button</button>
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button&lt;/button></code></pre>
+
+<hr>
+<h2 id="buttons-with-nested-elements">Buttons with nested Elements</h2>
+<blockquote>
+<p>You can also add nested elements like labels or badges to button code</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<button class="tvg--button-primary tvg--button-M tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button></code></pre>
+
+<hr>
+<hr>
+<p><a name="typography"></a></p>
+<h2 id="typography-and-textstyles">Typography and Textstyles</h2>
+<p>Heading, text and link styles</p>
+
+<p><h1>Heading 1</h1></p>
+<p><h2>Heading 2</h2></p>
+<p><h3>Heading 3</h3></p>
+<p><h4>Heading 4</h4></p>
+<p><h5>Heading 5</h5></p>
+<p><h6>Heading 6</h6></p>
+<p><h1 class="tvg--underline">&nbsp;</h1></p>
+<p><h1 class="tvg--underline">Heading 1 underlined</h1></p>
+<p><h2 class="tvg--underline">Heading 2 underlined</h2></p>
+<p><h3 class="tvg--underline">Heading 3 underlined</h3></p>
+<p><h4 class="tvg--underline">Heading 4 underlined</h4></p>
+<p><h5 class="tvg--underline">Heading 5 underlined</h5></p>
+<p><h6 class="tvg--underline">Heading 6 underlined</h6></p>
+<p>This is a standard text</p>
+<p style="font-style: italic;">This is a italic text</p>
+<p style="font-weight: bold;">This is a bold text</p>
+
+<p><h2 class="tvg--fwght-100">Heading 2 font-weight 100</h2></p>
+<p><h2 class="tvg--fwght-400">Heading 2 font-weight 400</h2></p>
+<p><h2 class="tvg--fwght-700">Heading 2 font-weight 700</h2></p>
+<p><h2 class="tvg--fwght-100 tvg--underline">Heading 2 underlined font-weight 100</h2></p>
+<p><h2 class="tvg--fwght-400 tvg--underline">Heading 2 underlined font-weight 400</h2></p>
+<p><h2 class="tvg--fwght-700 tvg--underline">Heading 2 underlined font-weight 700</h2></p>
+<p><a href="#typography">Lorem ipsum</a><p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
             </div>
             <div class="tvg--col-XXS-12  tvg--col-S-4">
                 Nav

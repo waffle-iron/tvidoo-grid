@@ -53,3 +53,8 @@ textarea {
 @-webkit-keyframes #{$classNamePrefix}progress-info {0% {width:0px;} 100%{width:80%;}}
 @-webkit-keyframes #{$classNamePrefix}progress-warning {0% {width:0px;} 100%{width:65%;}}
 @-webkit-keyframes #{$classNamePrefix}progress-danger {0% {width:0px;} 100%{width:80%;}}
+
+
+a {
+    color: $brand_link_color;
+}
