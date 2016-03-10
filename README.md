@@ -100,3 +100,5 @@ Documentation is released under:
 Licenses (used third party libraries)
 ===
 Used third party libraries are published under different libraries. See their respecting README or License files for more information
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tvidoo-commerce/tvidoo-grid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
