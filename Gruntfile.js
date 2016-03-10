@@ -25,7 +25,7 @@ module.exports = function(grunt) {
                     layout: 'layout.html',
                     highlightjs: {
                         enabled: true,
-                        style: 'paraiso.dark',
+                        style: 'default',
                         compressStyle: true
                     },
                     markedOptions: {
