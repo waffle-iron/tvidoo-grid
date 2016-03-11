@@ -2,7 +2,7 @@
 
 tvidoo grid
 ===
-tvidoo grid is a pure css based fluid grid layout system for all purposes regarding responsive (adaptive) web design. tvidoo grid is pure CSS / CSS3 and don't rely on any JavaScript libraries. So you are absolutely free to combine it with whatever frameworks you want, be it AngularJS, be it jQuery and so many more.
+tvidoo grid is a pure css based fluid grid layout system for all purposes regarding responsive (adaptive) web design. tvidoo grid is brought to you by [Thorsten Körner](http://www.tvidoo-commerce.com/en/author/thorsten/) it is pure CSS / CSS3 and don't rely on any JavaScript libraries. So you are absolutely free to combine it with whatever frameworks you want, be it AngularJS, be it jQuery and so many more.
 
 tvidoo grid also don't hurt existing template sets, when you are required to migrate softly to a responsive design.
 
@@ -12,7 +12,7 @@ Please read the [CONTRIBUTING](https://github.com/tvidoo-commerce/tvidoo-grid/bl
 
 History
 ===
-It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops, as well as WordPress blogs at tvidoo commerce (http://www.tvidoo-commerce.com).
+It was first developed during my work on several responsive shop templates for Magento, OXID and Prestashop online shops, as well as WordPress blogs at [tvidoo commerce](http://www.tvidoo-commerce.com).
 
 After doing several different shops, I decided to strip down the code to have it more generic, so tvidoo grid is strictly designed to have a small footprint.
 
@@ -36,6 +36,9 @@ Prerequisites:
 
 ### Distribution | Installing tvidoo grid using a ZIP archive
 If you want to install tvidoo grid just as it is, just download the latest ZIP archive release and unpack the contents of the distribution directory to your web project or website.
+
+Prerequisites:
+- No special requirements when just using the CSS files. 
 
 
 [![tvidoo grid](https://img.shields.io/badge/tvidoo--grid-v_0.9__beta-blue.svg)](https://github.com/tvidoo-commerce/tvidoo-grid) [![npm](https://img.shields.io/npm/l/express.svg)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
@@ -63,7 +66,7 @@ Since this is the way, you would normally go, we have a better one. You can simp
 
 Don't forget to edit the comment section at the top according to the WordPress codex. (https://codex.wordpress.org/Theme_Development#Theme_Stylesheet)
 
-License
+License (tvidoo grid code)
 ===
 The MIT License (MIT)
 
@@ -87,5 +90,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tvidoo-commerce/tvidoo-grid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+License (tvidoo grid documentation)
+===
 
+Documentation is released under:
+- [creative commons license Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0)
+- Read the full license here (http://creativecommons.org/licenses/by-sa/4.0/legalcode)
+
+Licenses (used third party libraries)
+===
+Used third party libraries are published under different libraries. See their respecting README or License files for more information
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tvidoo-commerce/tvidoo-grid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
