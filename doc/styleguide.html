@@ -185,34 +185,82 @@
 <hr>
 <p><a name="callouts"></a></p>
 <h2 id="callouts">Callouts</h2>
-<pre><code>Callouts are ideal <span class="hljs-keyword">to</span> give users feedback <span class="hljs-function_start"><span class="hljs-keyword">on</span></span> their actions <span class="hljs-keyword">and</span> provide important messages. All colors <span class="hljs-keyword">from</span> <span class="hljs-keyword">the</span> color.sass <span class="hljs-type">file</span> are available.
-</code></pre><div class="tvg--callout tvg--callout-default">A Default Callout</div><p></p>
+<blockquote>
+<p>Callouts are ideal to give users feedback on their actions and provide important messages. All colors from the color.sass file are available.</p>
+</blockquote>
+<div class="tvg--callout tvg--callout-default">A Default Callout</div><p></p>
 <div class="tvg--callout tvg--callout-primary">A Primary Callout</div><p></p>
 <div class="tvg--callout tvg--callout-success">A Success Callout</div><p></p>
 <div class="tvg--callout tvg--callout-info">An Info Callout</div><p></p>
 <div class="tvg--callout tvg--callout-warning">A Warning Callout</div><p></p>
 <div class="tvg--callout tvg--callout-danger">A Danger Callout</div><p></p>
-<h2 class="tvg--underline">Callout examples with nested elements</h2>
+
+<h2>Code</h2>
+
+<pre><code class="html">
+&lt;div class=&quot;tvg--callout tvg--callout-default&quot;&gt;A Default Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-primary&quot;&gt;A Primary Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-success&quot;&gt;A Success Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-info&quot;&gt;An Info Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-warning&quot;&gt;A Warning Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-danger&quot;&gt;A Danger Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+</code></pre>
+
+<h2>Callout examples with nested elements</h2>
+
+<blockquote>Callouts can also be used for nested elements like buttons, links etc.</blockquote>
+
 <div class="tvg--callout tvg--callout-danger">A danger callout with a flat button
-    <p></p>
-    <a href="#callouts"><button class="tvg--button-M tvg--button-danger tvg--border-radius">Do something Sam!</button></a></div><p></p>
+<p></p>
+<a href="#callouts"><button class="tvg--button-M tvg--button-danger tvg--border-radius">Do something Sam!</button></a></div><p></p>
 <div class="tvg--callout tvg--callout-danger tvg--raised">A danger callout with <a href="#callouts">link</a> and flat button
-    <a href="#callouts"><button class="tvg--button-S tvg--button-danger tvg--border-radius">Do
-     it again Sam!</button></a></div>
+<a href="#callouts"><button class="tvg--button-S tvg--button-danger tvg--border-radius">Do it again Sam!</button></a></div>
+
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;div class="tvg--callout tvg--callout-danger">A danger callout with a flat button
+    &lt;p>&lt;/p>
+    &lt;a href="#callouts">
+        &lt;button class="tvg--button-M tvg--button-danger tvg--border-radius">
+        Do something Sam!&lt;/button>
+    &lt;/a>
+&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--callout tvg--callout-danger tvg--raised">
+    A danger callout with &lt;a href="#callouts">link&lt;/a> and flat button
+    &lt;a href="#callouts">&lt;button class="tvg--button-S tvg--button-danger tvg--border-radius">
+        Do it again Sam!&lt;/button>
+    &lt;/a>&lt;/div>
+</code></pre>
+
 
 
 <hr>
 <p><a name="infoboxes"></a></p>
 <h2 id="infoboxes">Infoboxes</h2>
+<blockquote>
 <p>Infoboxes can be used to emphasize special text passages or messages. All colors from the color.sass file are available.</p>
+</blockquote>
 <p><div class="tvg--infobox tvg--infobox-default">A Default Infobox</div><p></p></p>
 <p><div class="tvg--infobox tvg--infobox-primary">A Primary Infobox</div><p></p></p>
 <p><div class="tvg--infobox tvg--infobox-success">A Success Infobox</div><p></p></p>
 <p><div class="tvg--infobox tvg--infobox-info">A Info Infobox</div><p></p></p>
 <p><div class="tvg--infobox tvg--infobox-warning">A Warning Infobox</div><p></p></p>
 <p><div class="tvg--infobox tvg--infobox-danger">A Danger Infobox</div><p></p></p>
-<p><h2 class="tvg--underline">Infobox examples with nested elements.</h2>
-Infoboxes can also be used for nested elements:</p>
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;div class="tvg--infobox tvg--infobox-default">A Default Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-primary">A Primary Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-success">A Success Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-info">A Info Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-warning">A Warning Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-danger">A Danger Infobox&lt;/div>&lt;p>&lt;/p>
+</code></pre>
+
+<h2 class="tvg--underline">Infobox examples with nested elements.</h2>
+
+<blockquote>
+<p>Infoboxes can also be used for nested elements:</p>
+</blockquote>
 <p><div class="tvg--infobox tvg--infobox-success">A Success Infobox with Flat Button
     <p></p>
     <button class="tvg--button-M tvg--button-success tvg--border-radius">Do it again Sam!</button>
@@ -220,6 +268,23 @@ Infoboxes can also be used for nested elements:</p>
 <p><div class="tvg--infobox tvg--infobox-danger tvg--raised">A raised Danger Infobox with <a href="#infoboxes">link</a> and outlined button.
     <a href="#infoboxes"><button class="tvg--button-outline-danger tvg--button-XS tvg--border-radius">Do it again Sam!</button></a>
 </div><p></p></p>
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;div class="tvg--infobox tvg--infobox-success">A Success Infobox with Flat Button
+    &lt;p>&lt;/p>
+    &lt;button class="tvg--button-M tvg--button-success tvg--border-radius">
+    Do it again Sam!&lt;/button>
+&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-danger tvg--raised">
+A raised Danger Infobox with &lt;a href="#infoboxes">link&lt;/a> and outlined button.
+    &lt;a href="#infoboxes">
+    &lt;button class="tvg--button-outline-danger tvg--button-XS tvg--border-radius">
+    Do it again Sam!&lt;/button>&lt;/a>
+&lt;/div>&lt;p>&lt;/p>
+</code></pre>
+
+
+
 <hr>
 <p><a name="typography"></a></p>
 <h2 id="typography-and-textstyles">Typography and Textstyles</h2>
