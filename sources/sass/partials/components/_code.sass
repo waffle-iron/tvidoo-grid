@@ -1,10 +1,12 @@
 /*! _code.sass v1.0_beta6 Module code | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
-code
-  font-family: monospace
-  white-space: pre
-
+code,
 .#{$classNamePrefix}code
   font-family: monospace
   white-space: pre
+  border: 1px inset $white
+  @include border-radius(4px)
+  padding: 5px
   background: $lightgrey
-  border: 1px solid $primary
+  display: block
+  text-wrap: normal
+  overflow: visible

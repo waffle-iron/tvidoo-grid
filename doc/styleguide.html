@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tvidoo grid visual styleguide page</title>
+    <link rel="stylesheet" type="text/css" href="../distribution/css/tvidoo-grid.css">
+    <link rel="stylesheet" type="text/css" href="../distribution/css/tvidoo-grid-theme-basic.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<div id="page">
+    <div id="page-wrapper">
+        <div class="tvg--row">
+            <a href="http://www.tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=styleguide_click&utm_campaign=github_tvidoo-grid&utm_content=styleguide-logo">
+                <img src="http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid">
+            </a>
+        </div>
+            <h1>tvidoo grid visual styleguide</h1>
+
+        <div class="tvg--row tvg--wrapper">
+            <div class="tvg--col-XXS-12  tvg--col-S-8">
+                <hr>
+<p><a name="progress"></a></p>
+<h2 id="progress-bars">Progress Bars</h2>
+<blockquote>
+<p>Progress Bars can be used to show the progress of any process or as a chart.</p>
+<p>They are animated using CSS</p>
+<p>Coloring is done with the CSS classes by using the color swatch colors</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<div style="clear: both">&nbsp;</div>
+
+<div class="tvg--col-XXS-12  tvg--col-S-5">
+
+<div class="tvg--progress">
+    <div class="tvg--progress-default" style="width: 80%;">Default</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-primary" style="width: 90%;">Primary</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-success" style="width: 65%;">Success</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-info" style="width: 80%;">Info</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-warning" style="width: 65%;">Warning</div>
+</div>
+<div class="tvg--progress">
+    <div class="tvg--progress-danger" style="width: 80%;">Danger</div>
+</div>
+
+<p></div></p>
+<div style="clear: both">&nbsp;</div>
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-default" style="width: 80%;">Default&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-primary" style="width: 90%;">Primary&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-success" style="width: 65%;">Success&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-info" style="width: 80%;">Info&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-warning" style="width: 65%;">Warning&lt;/div>
+&lt;/div>
+&lt;div class="tvg--progress">
+    &lt;div class="tvg--progress-danger" style="width: 80%;">Danger&lt;/div>
+&lt;/div>
+</code></pre>
+
+<hr>
+<h4 id="example-with-lists">Example with Lists</h4>
+<div style="clear: both">&nbsp;</div>
+
+<div class="tvg--col-XXS-12 tvg--col-S-5">
+
+<ul class="tvg--liststyle-none">
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-default" style="width: 80%;"><span>Default</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-primary" style="width: 90%;"><span>Primary</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-success" style="width: 65%;"><span>Success</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-info" style="width: 80%;"><span>Info</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-warning" style="width: 65%;"><span>Warning</span></div></li>
+<li class="tvg--progress tvg--progress-margleft"><div class="tvg--progress-danger" style="width: 80%;"><span>Danger</span></div></li>
+</ul>
+</div><div class="tvg--col-XXS-12 tvg--col-S-7">&nbsp;</div>
+
+<div style="clear: both">&nbsp;</div>
+
+<h3 id="code-progress-bar-with-lists">Code Progress Bar with Lists</h3>
+<pre><code class="html">&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-default" style="width: 80%;">&lt;span>Default&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-primary" style="width: 90%;">&lt;span>Primary&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-success" style="width: 65%;">&lt;span>Success&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-info" style="width: 80%;">&lt;span>Info&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-warning" style="width: 65%;">&lt;span>Warning&lt;/span>&lt;/div>
+&lt;/li>
+&lt;li class="tvg--progress tvg--progress-margleft">
+    &lt;div class="tvg--progress-danger" style="width: 80%;">&lt;span>Danger&lt;/span>&lt;/div>
+&lt;/li>
+</code></pre>
+
+<div class="tvg--infobox tvg--infobox-info">TIPP: the progress bar elements are reacting to the ltr/rtl switch in _directions.sass. So you can easily switch the direction in your internationalization project.</div>
+
+
+<hr>
+<p><a name="buttons"></a></p>
+<h2 id="buttons-">Buttons:</h2>
+<blockquote>
+<p>Buttons are available in all defined colors from color swatch. </p>
+<p>They can be added to all HTML container Elements and links and can contain other elements like labels etc.</p>
+<p>You can also add attributes like id and data-attributes for your JavaScript programming.</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<button class="tvg--button-primary tvg--button-M tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button</button>
+
+
+<button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button</button>
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button&lt;/button>
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button&lt;/button></code></pre>
+
+<hr>
+<h2 id="buttons-with-nested-elements">Buttons with nested Elements</h2>
+<blockquote>
+<p>You can also add nested elements like labels or badges to button code</p>
+</blockquote>
+<h3 id="examples">Examples</h3>
+<button class="tvg--button-primary tvg--button-S tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-primary tvg--button-S tvg--primary-gradient tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-primary tvg--button-S tvg--primary-gradient tvg--button-raised tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+<button class="tvg--button-outline-primary tvg--button-S tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+
+
+<h3 id="code">Code</h3>
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button>
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">
+    Button with Label Badge 
+    &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
+&lt;/button></code></pre>
+
+<hr>
+<hr>
+<p><a name="callouts"></a></p>
+<h2 id="callouts">Callouts</h2>
+<blockquote>
+<p>Callouts are ideal to give users feedback on their actions and provide important messages. All colors from the color.sass file are available.</p>
+</blockquote>
+<div class="tvg--callout tvg--callout-default">A Default Callout</div><p></p>
+<div class="tvg--callout tvg--callout-primary">A Primary Callout</div><p></p>
+<div class="tvg--callout tvg--callout-success">A Success Callout</div><p></p>
+<div class="tvg--callout tvg--callout-info">An Info Callout</div><p></p>
+<div class="tvg--callout tvg--callout-warning">A Warning Callout</div><p></p>
+<div class="tvg--callout tvg--callout-danger">A Danger Callout</div><p></p>
+
+<h2>Code</h2>
+
+<pre><code class="html">
+&lt;div class=&quot;tvg--callout tvg--callout-default&quot;&gt;A Default Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-primary&quot;&gt;A Primary Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-success&quot;&gt;A Success Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-info&quot;&gt;An Info Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-warning&quot;&gt;A Warning Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;tvg--callout tvg--callout-danger&quot;&gt;A Danger Callout&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+</code></pre>
+
+<h2>Callout examples with nested elements</h2>
+
+<blockquote>Callouts can also be used for nested elements like buttons, links etc.</blockquote>
+
+<div class="tvg--callout tvg--callout-danger">A danger callout with a flat button
+<p></p>
+<a href="#callouts"><button class="tvg--button-M tvg--button-danger tvg--border-radius">Do something Sam!</button></a></div><p></p>
+<div class="tvg--callout tvg--callout-danger tvg--raised">A danger callout with <a href="#callouts">link</a> and flat button
+<a href="#callouts"><button class="tvg--button-S tvg--button-danger tvg--border-radius">Do it again Sam!</button></a></div>
+
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;div class="tvg--callout tvg--callout-danger">A danger callout with a flat button
+    &lt;p>&lt;/p>
+    &lt;a href="#callouts">
+        &lt;button class="tvg--button-M tvg--button-danger tvg--border-radius">
+        Do something Sam!&lt;/button>
+    &lt;/a>
+&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--callout tvg--callout-danger tvg--raised">
+    A danger callout with &lt;a href="#callouts">link&lt;/a> and flat button
+    &lt;a href="#callouts">&lt;button class="tvg--button-S tvg--button-danger tvg--border-radius">
+        Do it again Sam!&lt;/button>
+    &lt;/a>&lt;/div>
+</code></pre>
+
+
+
+<hr>
+<p><a name="infoboxes"></a></p>
+<h2 id="infoboxes">Infoboxes</h2>
+<blockquote>
+<p>Infoboxes can be used to emphasize special text passages or messages. All colors from the color.sass file are available.</p>
+</blockquote>
+<p><div class="tvg--infobox tvg--infobox-default">A Default Infobox</div><p></p></p>
+<p><div class="tvg--infobox tvg--infobox-primary">A Primary Infobox</div><p></p></p>
+<p><div class="tvg--infobox tvg--infobox-success">A Success Infobox</div><p></p></p>
+<p><div class="tvg--infobox tvg--infobox-info">A Info Infobox</div><p></p></p>
+<p><div class="tvg--infobox tvg--infobox-warning">A Warning Infobox</div><p></p></p>
+<p><div class="tvg--infobox tvg--infobox-danger">A Danger Infobox</div><p></p></p>
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;div class="tvg--infobox tvg--infobox-default">A Default Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-primary">A Primary Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-success">A Success Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-info">A Info Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-warning">A Warning Infobox&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-danger">A Danger Infobox&lt;/div>&lt;p>&lt;/p>
+</code></pre>
+
+<h2 class="tvg--underline">Infobox examples with nested elements.</h2>
+
+<blockquote>
+<p>Infoboxes can also be used for nested elements:</p>
+</blockquote>
+<p><div class="tvg--infobox tvg--infobox-success">A Success Infobox with Flat Button
+    <p></p>
+    <button class="tvg--button-M tvg--button-success tvg--border-radius">Do it again Sam!</button>
+</div><p></p></p>
+<p><div class="tvg--infobox tvg--infobox-danger tvg--raised">A raised Danger Infobox with <a href="#infoboxes">link</a> and outlined button.
+    <a href="#infoboxes"><button class="tvg--button-outline-danger tvg--button-XS tvg--border-radius">Do it again Sam!</button></a>
+</div><p></p></p>
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;div class="tvg--infobox tvg--infobox-success">A Success Infobox with Flat Button
+    &lt;p>&lt;/p>
+    &lt;button class="tvg--button-M tvg--button-success tvg--border-radius">
+    Do it again Sam!&lt;/button>
+&lt;/div>&lt;p>&lt;/p>
+&lt;div class="tvg--infobox tvg--infobox-danger tvg--raised">
+A raised Danger Infobox with &lt;a href="#infoboxes">link&lt;/a> and outlined button.
+    &lt;a href="#infoboxes">
+    &lt;button class="tvg--button-outline-danger tvg--button-XS tvg--border-radius">
+    Do it again Sam!&lt;/button>&lt;/a>
+&lt;/div>&lt;p>&lt;/p>
+</code></pre>
+
+
+
+<hr>
+<p><a name="typography"></a></p>
+<h2 id="typography-and-textstyles">Typography and Textstyles</h2>
+<blockquote>
+<p>Heading, text and link styles</p>
+</blockquote>
+<p><h1>Heading 1</h1></p>
+<p><h2>Heading 2</h2></p>
+<p><h3>Heading 3</h3></p>
+<p><h4>Heading 4</h4></p>
+<p><h5>Heading 5</h5></p>
+<p><h6>Heading 6</h6></p>
+<p><h1 class="tvg--underline">&nbsp;</h1></p>
+<p><h1 class="tvg--underline">Heading 1 underlined</h1></p>
+<p><h2 class="tvg--underline">Heading 2 underlined</h2></p>
+<p><h3 class="tvg--underline">Heading 3 underlined</h3></p>
+<p><h4 class="tvg--underline">Heading 4 underlined</h4></p>
+<p><h5 class="tvg--underline">Heading 5 underlined</h5></p>
+<p><h6 class="tvg--underline">Heading 6 underlined</h6></p>
+<p>This is a standard text</p>
+<p class="tvg--fitalic">This is a italic text</p>
+<p class="tvg--fwght-bold">This is a bold text</p>
+
+<p><h2 class="tvg--fwght-100">Heading 2 font-weight 100</h2></p>
+<p><h2 class="tvg--fwght-400">Heading 2 font-weight 400</h2></p>
+<p><h2 class="tvg--fwght-700">Heading 2 font-weight 700</h2></p>
+<p><h2 class="tvg--fwght-100 tvg--underline">Heading 2 underlined font-weight 100</h2></p>
+<p><h2 class="tvg--fwght-400 tvg--underline">Heading 2 underlined font-weight 400</h2></p>
+<p><h2 class="tvg--fwght-700 tvg--underline">Heading 2 underlined font-weight 700</h2></p>
+<p><a href="#typography">Lorem ipsum</a></p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+
+<h2 id="code">Code</h2>
+<pre><code class="code html">
+&lt;h1>Heading 1&lt;/h1>
+&lt;h2>Heading 2&lt;/h2>
+&lt;h3>Heading 3&lt;/h3>
+&lt;h4>Heading 4&lt;/h4>
+&lt;h5>Heading 5&lt;/h5>
+&lt;h6>Heading 6&lt;/h6>
+&lt;h1 class="tvg--underline">&nbsp;&lt;/h1>
+&lt;h1 class="tvg--underline">Heading 1 underlined&lt;/h1>
+&lt;h2 class="tvg--underline">Heading 2 underlined&lt;/h2>
+&lt;h3 class="tvg--underline">Heading 3 underlined&lt;/h3>
+&lt;h4 class="tvg--underline">Heading 4 underlined&lt;/h4>
+&lt;h5 class="tvg--underline">Heading 5 underlined&lt;/h5>
+&lt;h6 class="tvg--underline">Heading 6 underlined&lt;/h6>
+&lt;p>This is a standard text&lt;/p>
+&lt;p class="tvg--fitalic">This is a italic text&lt;/p>
+&lt;p class="tvg--fwght-bold">This is a bold text&lt;/p>
+
+&lt;h2 class="tvg--fwght-100">Heading 2 font-weight 100&lt;/h2>
+&lt;h2 class="tvg--fwght-400">Heading 2 font-weight 400&lt;/h2>
+&lt;h2 class="tvg--fwght-700">Heading 2 font-weight 700&lt;/h2>
+&lt;h2 class="tvg--fwght-100 tvg--underline">Heading 2 underlined font-weight 100&lt;/h2>
+&lt;h2 class="tvg--fwght-400 tvg--underline">Heading 2 underlined font-weight 400&lt;/h2>
+&lt;h2 class="tvg--fwght-700 tvg--underline">Heading 2 underlined font-weight 700&lt;/h2>
+&lt;p>&lt;a href="#typography">Lorem ipsum&lt;/a>&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, ...&lt;/p>
+
+</code></pre>
+
+            </div>
+            <div class="tvg--col-XXS-12  tvg--col-S-4" style="padding: 0% 20px; background-color: #eee;">
+                <p><a href="#">Entry 1</a></p>
+                <p><a href="#">Entry 2</a></p>
+                <p><a href="#">Entry 3</a></p>
+                <p><a href="#">Entry 4</a></p>
+                <p><a href="#">Entry 5</a></p>
+                <p><a href="#">Entry 6</a></p>
+                <p><a href="#">Entry 7</a></p>
+                <p><a href="#">Entry 8</a></p>
+            </div>
+            <div class="tvg--clear">&nbsp;</div>
+        </div>
+        <div style="text-align: center; border-top: 3px solid #ddd; padding: 30px; color: #ddd; background: #000;">This styleguide is auto-generated by grunt-md2html from the sources of tvidoo grid<p></p>
+        tvidoo grid Copyright &copy; 2013-2016 by <a style="color: #ddd;" href="http://www.tvidoo-commerce.com/en/author/thorsten/">Thorsten K&ouml;rner</a> and <a style="color: #ddd;" href="http://www.tvidoo-commerce.com/en/author/thorsten/">tvidoo commerce UG</a><p></p>Github Project: <a style="color: #ddd;" href="https://github.com/tvidoo-commerce/tvidoo-grid">https://github.com/tvidoo-commerce/tvidoo-grid</a><p></p>
+            <p></p><a href="http://www.tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=styleguide_click&utm_campaign=github_tvidoo-grid&utm_content=styleguide-logo">
+                <img src="http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid">
+            </a><p></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

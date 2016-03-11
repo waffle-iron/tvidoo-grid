@@ -33,12 +33,16 @@ We accept issues that are feature requests and bug reports.
 
 Here is how to report bugs:
 
-1. Search for evtl. exitsing reports. If there is already a bug report which nearly describes a problem like yours, please comment to the existing bug, instead of posting a new one.
-2. Report a single bug per issue
-3. Write a complete description of the bug, especially including your Browser with version and your system environment. Describe how one can reproduce the behaviour.
+1. Search for evtl. existing bug reports which may describe your problem or issue. If there is already a bug report which nearly describes a problem like yours, please comment to the existing bug, instead of posting a new one.
+2. Report just a single bug per issue. Write a complete description of the bug, especially including your Browser with version and your systems environment. 
+3. Describe how one can reproduce the behaviour.
+4. For example your system information can look like: ``` Safari 601.4.4 on MacBook Pro with Mac OSX 10.11.3```,  
+or ```Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/601.4.4```
+5. It would be of great help, if you can provide a link to the page where the problem occurs, or add a screenshot.
 
 
 ## Key branches
+The tvidoo grid project follows GitFlow ()
 
 - `master` is the latest release version.
 - `develop` is the branch, where features etc. are merged to, before they will be releases
@@ -52,3 +56,5 @@ By contributing your code, you agree to license your contribution under the term
 
 Documentation is released under:
 - [creative commons license Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) 
+
+For detailed license information please refer to the README.md file in the project root directory.

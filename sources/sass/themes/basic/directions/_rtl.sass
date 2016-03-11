@@ -1,0 +1,34 @@
+/*! _directions.sass v1.0_beta6 Module rtl | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
+
+/*
+ * Text direction
+ */
+$direction: rtl
+
+body
+  direction: $direction
+
+
+/*
+ * floating behaviour
+ */
+$rightfloat: right
+$leftfloat: left
+$float: $rightfloat
+
+/*
+ * switchable borderradius i.e. for progress bars
+ */
+
+$br_leftfloat: 0 10px 10px 0
+$br_rightfloat: 10px 0 0 10px
+$br_float: $br_rightfloat
+$progr_align: $rightfloat
+
+.#{$classNamePrefix}progress span
+  position: relative
+  right: -100px
+  text-decoration: underline
+
+.#{$classNamePrefix}progress-margleft
+  margin-right: 60px !important
