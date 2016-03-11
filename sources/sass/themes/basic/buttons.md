@@ -39,13 +39,13 @@
 
 ### Examples
 
-<button class="tvg--button-primary tvg--button-M tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+<button class="tvg--button-primary tvg--button-S tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
 
-<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+<button class="tvg--button-primary tvg--button-S tvg--primary-gradient tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
 
-<button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+<button class="tvg--button-primary tvg--button-S tvg--primary-gradient tvg--button-raised tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
 
-<button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">Button with Label Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
+<button class="tvg--button-outline-primary tvg--button-S tvg--border-radius">Button with Badge <span class="tvg--label-danger tvg--danger-gradient">12</span></button>
 
     
 ### Code
