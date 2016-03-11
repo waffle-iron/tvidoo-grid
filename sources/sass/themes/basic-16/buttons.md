@@ -50,19 +50,19 @@
     
 ### Code
 
-<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-S tvg--border-radius">
+<pre><code class="html">&lt;button class="tvg--button-primary tvg--button-M tvg--border-radius">
     Button with Label Badge 
     &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
 &lt;/button>
-&lt;button class="tvg--button-primary tvg--button-S tvg--primary-gradient tvg--border-radius">
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--border-radius">
     Button with Label Badge 
     &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
 &lt;/button>
-&lt;button class="tvg--button-primary tvg--button-S tvg--primary-gradient tvg--button-raised tvg--border-radius">
+&lt;button class="tvg--button-primary tvg--button-M tvg--primary-gradient tvg--button-raised tvg--border-radius">
     Button with Label Badge 
     &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
 &lt;/button>
-&lt;button class="tvg--button-outline-primary tvg--button-S tvg--border-radius">
+&lt;button class="tvg--button-outline-primary tvg--button-M tvg--border-radius">
     Button with Label Badge 
     &lt;span class="tvg--label-danger tvg--danger-gradient">12&lt;/span>
 &lt;/button></code></pre>

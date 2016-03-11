@@ -1,4 +1,4 @@
-/*! _infoboxes.sass v1.0_beta6 Module infoboxes | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
+/*! tvidoo-grid.css v1.0_beta6 Module mixins | MIT License | https://github.com/tvidoo-commerce/tvidoo-grid */
 /*
  * Name:           tvidoo-grid
  * Description:    lightweight fluid CSS3 grid system
@@ -18,27 +18,18 @@
  * THE SOFTWARE.
  */
 
-.#{$classNamePrefix}infobox
-    padding: 10px 20px
-    margin: 0 10px 0 0
-    border: 1px solid $lightgrey
-    border-left-width: 5px
-    color: $text_color
+/*
+ * Setting the class name prefix to prevent from destroying other systems like bootstrap
+ */
 
-.#{$classNamePrefix}infobox-default
-    border-left-color: lighten($default, 10.0%)
+.#{$classNamePrefix}billboard
+  width: 100%
+  clear: both
+  padding: 2em
+  margin: 0
+  background-color: $brand2
+  color: $brand_light_text_color
 
-.#{$classNamePrefix}infobox-primary
-    border-left-color: lighten($primary, 10.0%)
 
-.#{$classNamePrefix}infobox-success
-    border-left-color: lighten($success, 10.0%)
-
-.#{$classNamePrefix}infobox-info
-    border-left-color: lighten($info, 10.0%)
-
-.#{$classNamePrefix}infobox-warning
-    border-left-color: lighten($warning, 10.0%)
-
-.#{$classNamePrefix}infobox-danger
-    border-left-color: lighten($danger, 10.0%)
+.#{$classNamePrefix}billboard *
+  color: $brand_light_text_color
