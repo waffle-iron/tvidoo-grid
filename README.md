@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/tvidoo-commerce/tvidoo-grid.png?label=ready&title=Ready)](https://waffle.io/tvidoo-commerce/tvidoo-grid)
 [![logo.png](http://www.tvidoo-commerce.com/wp-content/uploads/2015/04/tvidoo_logo_commerce_2015_72dpi_150.png?github_repo=tvidoo-grid)](http://www.tvidoo-commerce.com/en/author/thorsten/?utm_source=github&utm_medium=readme&utm_term=logo_click&utm_campaign=github_tvidoo-grid&utm_content=logo)
 
 tvidoo grid
